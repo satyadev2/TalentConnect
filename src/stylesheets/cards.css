@@ -1,0 +1,41 @@
+/* Card.css */
+
+.card {
+    margin: 60px 30px;
+    display: inline-block;
+}
+
+.card-header {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.card-header--title {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin: 0;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.date {
+    margin-bottom: 10px;
+}
+
+.body-content {
+    margin-bottom: 20px;
+}
+
+.button-primary {
+    padding: 10px 20px;
+    background-color: #1ca774;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}

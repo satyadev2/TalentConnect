@@ -1,0 +1,40 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    /* Set navbar background to nothing */
+    padding: 20px;
+}
+
+.navbar-right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1ca774;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Additional styles to fix the buttons overlapping issue */
+.navbar-right a:not(:last-child) {
+    margin-right: 20px;
+    /* Add margin to separate the links */
+}
+
+.navbar-right a button {
+    margin: 0;
+    /* Remove margin from the buttons */
+}
